@@ -69,6 +69,10 @@ If your image contains extra graphics (like a game logo, UI elements or even mor
 
 Tip: Use the Preview Window to find these coordinates easily by hovering your mouse.
 
+<img width="281" height="226" alt="bmfr5_region_limits" src="https://github.com/user-attachments/assets/7d66ec4e-fa5d-4459-af1c-294ba94e1f09" />
+
+Source region limit usage example (from BMFR v5.0)
+
 ### 5. Output Configuration:
 
 Location: Tab 1: "General Settings" > "Section 5: Output Spacing, Padding & Scaling"
@@ -93,6 +97,11 @@ Use this for characters that don't fit the standard grid (e.g., a hanging "j" or
 - Offset X/Y: Moves the cut box for just this character.
 - Set/Update Exception: It's just the button to set or update the exception.
 
+<img width="321" height="316" alt="bmfr6_exceptions" src="https://github.com/user-attachments/assets/c5994b7c-d2e6-437a-8ac5-43c588b987dd" />
+<img width="281" height="226" alt="bmfr6_exceptions_preview" src="https://github.com/user-attachments/assets/6d98ee5c-8c6e-4feb-9258-a31615702cc2" />
+
+Character exceptions usage example (from BMFR v6.0)
+
 ### 2. Reordering Characters (Relocation)
 
 Location: Tab 2: "Character Relocation"
@@ -102,6 +111,11 @@ Use this if the font characters are scrambled or not in ASCII order.
 - Put Source ID: The order the character appears in the original image (e.g., the 5th character scanned is 'A', so ID=4).
 - Into Target Position: Where it should be in the final file (e.g., 'A' is usually ASCII 65, or index 33 in some sets (OSDM, CODEF sets)).
 - Set Mapping: The button to set the mapping/relocation.
+
+<img width="321" height="316" alt="bmfr6_relocation" src="https://github.com/user-attachments/assets/b2810088-5d69-446a-8801-fe9010e8a8ce" />
+<img width="281" height="226" alt="bmfr6_relocation_preview" src="https://github.com/user-attachments/assets/8564c3e6-0716-48b0-aaf5-070943c38d04" />
+
+Character relocation usage example (from BMFR v6.0)
 
 ## Acknowledgements:
 ### Authors:
